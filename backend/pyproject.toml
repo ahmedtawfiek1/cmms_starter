@@ -1,0 +1,19 @@
+[project]
+name = "cmms-backend"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic>=2.0",
+  "sqlalchemy>=2.0",
+  "psycopg2-binary",
+  "python-multipart",
+  "passlib[bcrypt]",
+  "pyjwt",
+  "alembic",
+  "redis",
+  "rq",
+  "jinja2",
+  "openpyxl",
+]
